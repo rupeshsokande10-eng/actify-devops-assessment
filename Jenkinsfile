@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/rupeshsokande10-eng/actify-devops-assessment.git'
+                git branch: 'main', url: 'https://github.com/rupeshsokande10-eng/actify-devops-assessment.git'
             }
         }
 
